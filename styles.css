@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px;
+}
+
+.services, .information {
+    padding: 20px;
+}
+
+button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bab;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Add more CSS styles as needed to enhance the design. */
+
+@media (max-width: 768px) {
+    /* Add responsive styles for smaller screens here */
+}

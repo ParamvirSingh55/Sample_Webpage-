@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Website</h1>
+    </header>
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>Learn and grow with our services that cater to your needs.</p>
+    </section>
+    <section class="information">
+        <h2>Get More Information</h2>
+        <p>Enter your name and phone number, and we'll get in touch with you.</p>
+        <form id="infoForm">
+            <input type="text" placeholder="Your Name" id="name" required>
+            <input type="tel" placeholder="Your Phone Number" id="phone" required>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </section>
+    <section class="dashboard" id="dashboard">
+        <h2>User Dashboard</h2>
+        <p>Welcome, <span id="userName"></span>!</p>
+        <p>Phone no.:<span id="userPhone"></span></p>
+        <p>Your progress: <span id="progress">0%</span></p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
